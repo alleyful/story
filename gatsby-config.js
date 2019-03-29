@@ -142,7 +142,6 @@ module.exports = {
                    publishDate(formatString: "MMMM DD, YYYY")
                    body {
                      childMarkdownRemark {
-                       html
                        excerpt(pruneLength: 80)
                      }
                    }
